@@ -1,9 +1,9 @@
-import { useQuery } from "@tanstack/react-query";
-import { getPokemon } from "./api";
+// import { useQuery } from "@tanstack/react-query";
+// import { getPokemon, parmsType } from "./api";
 
-export const useGetPokemon = (id: string) => {
-  return useQuery({
-    queryKey: ["getPokemon", id],
-    queryFn: () => getPokemon(id),
-  });
-};
+// export const useGetPokemon = (parms: parmsType) => {
+//   return useQuery({
+//     queryKey: ["getPokemon", parms],
+//     queryFn: () => getPokemon(parms),
+//   });
+// };
